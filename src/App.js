@@ -1,11 +1,15 @@
-import "./App.css";
+import React, { useContext } from "react";
+import Counter from "./components/conter/conter";
 
-function App() {
+
+export default function App() {
+  
+
   return (
-    <div className="App">
-      <p>ALO GALERA DE COWBOY</p>
+    <div>
+      <p>aaaa</p>
+      <p> DevMedia Context API</p>
+      <Counter />
     </div>
   );
 }
-
-export default App;
