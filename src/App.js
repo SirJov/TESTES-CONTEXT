@@ -3,8 +3,8 @@ import Counter from "./components/conter/conter";
 import ContextState from "./components/context/ContextState";
 
 export default function App() {
-  const [dados, setDados] = useState(0);
-  console.log(dados + "  App");
+  const [dados, setDados] = useState({ nome: "herico", idade: "30 anos" });
+  console.log(dados);
   return (
     <div>
       <p>aaaa</p>

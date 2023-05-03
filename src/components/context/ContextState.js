@@ -1,5 +1,5 @@
 import { createContext } from "react";
 
-const ContextState = createContext([0, () => {}]);
+const ContextState = createContext([{}, () => {}]);
 
 export default ContextState;

@@ -6,8 +6,9 @@ export default function Botao() {
 
   return (
     <div>
-      <h6>{dados}</h6>
-      <button onClick={() => setDados(dados + 1)} />
+      <h6>{dados.nome}</h6>
+      <h6>{dados.idade}</h6>
+      <button onClick={() => setDados({ nome: "lima", idade: "29" })} />
     </div>
   );
 }
